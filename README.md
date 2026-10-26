@@ -57,7 +57,7 @@ explainable-quantum-meta-ids/
 
 The package is the original script split into modules **without changing
 any function, class or parameter**. Each function's code is identical to the
-one in `reference/xai_meta_qml_levelAB.py`, and the defaults in
+one in `reference/xai_meta_qml.py`, and the defaults in
 `xqmids/config.py` are the settings used in the paper, so a run of the
 package and a run of the original script give the same results.
 
