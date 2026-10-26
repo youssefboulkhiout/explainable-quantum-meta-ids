@@ -1,0 +1,52 @@
+{
+  "dataset": "UNSW-NB15",
+  "n_features": 30,
+  "features": [
+    "srcip",
+    "dstip",
+    "state",
+    "sbytes",
+    "sttl",
+    "dttl",
+    "sloss",
+    "service",
+    "sload",
+    "dload",
+    "swin",
+    "dwin",
+    "stcpb",
+    "dtcpb",
+    "smeansz",
+    "dmeansz",
+    "sjit",
+    "stime",
+    "ltime",
+    "tcprtt",
+    "synack",
+    "ackdat",
+    "ct_state_ttl",
+    "ct_srv_src",
+    "ct_srv_dst",
+    "ct_dst_ltm",
+    "ct_src_ltm",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm"
+  ],
+  "n_classes": 9,
+  "classes": [
+    "Analysis",
+    "Backdoors",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Generic",
+    "Reconnaissance",
+    "Shellcode",
+    "nan"
+  ],
+  "zero_day_classes": [
+    "DoS",
+    "Exploits"
+  ]
+}
