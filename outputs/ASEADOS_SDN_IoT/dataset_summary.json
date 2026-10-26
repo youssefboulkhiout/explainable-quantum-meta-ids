@@ -1,0 +1,48 @@
+{
+  "dataset": "ASEADOS_SDN_IoT",
+  "n_features": 30,
+  "features": [
+    "Src Port",
+    "Dst Port",
+    "Protocol",
+    "Flow Duration",
+    "Fwd Pkt Len Max",
+    "Bwd Pkt Len Max",
+    "Bwd Pkt Len Std",
+    "Flow IAT Mean",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Tot",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Bwd IAT Tot",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd PSH Flags",
+    "Pkt Len Max",
+    "Pkt Len Mean",
+    "Pkt Len Std",
+    "FIN Flag Cnt",
+    "SYN Flag Cnt",
+    "PSH Flag Cnt",
+    "ACK Flag Cnt",
+    "Down/Up Ratio",
+    "Pkt Size Avg",
+    "Idle Mean",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "n_classes": 5,
+  "classes": [
+    "Benign",
+    "Bot",
+    "DDoS",
+    "Dos",
+    "Prob"
+  ],
+  "zero_day_classes": [
+    "Bot",
+    "Prob"
+  ]
+}

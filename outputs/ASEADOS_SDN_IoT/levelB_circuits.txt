@@ -1,0 +1,35 @@
+Level-B quantum embedding circuits (q = 4, features: Src Port, Protocol, Bwd PSH Flags, PSH Flag Cnt)
+
+--- QSVC-PN ---
+0: ──H──RZ(0.16)─╭IsingZZ(17.28)─────────────────────────────────╭StronglyEntanglingLayers(M0)──H──RZ(0.16)─╭IsingZZ(17.28)─────────────────────────────────┤ ···
+1: ──H──RZ(0.64)─╰IsingZZ(17.28)─╭IsingZZ(15.01)─────────────────├StronglyEntanglingLayers(M0)──H──RZ(0.64)─╰IsingZZ(17.28)─╭IsingZZ(15.01)─────────────────┤ ···
+2: ──H──RZ(0.96)─────────────────╰IsingZZ(15.01)─╭IsingZZ(14.45)─├StronglyEntanglingLayers(M0)──H──RZ(0.96)─────────────────╰IsingZZ(15.01)─╭IsingZZ(14.45)─┤ ···
+3: ──H──RZ(0.85)─────────────────────────────────╰IsingZZ(14.45)─╰StronglyEntanglingLayers(M0)──H──RZ(0.85)─────────────────────────────────╰IsingZZ(14.45)─┤ ···
+
+0: ···   State
+1: ···   State
+2: ···   State
+3: ···   State
+
+--- VQC-PN ---
+0: ─╭AngleEmbedding(M0)─╭StronglyEntanglingLayers(M1)─┤  <Z>  <X>  <Y> ╭<Z@Z>        ╭<X@X>
+1: ─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M1)─┤  <Z>  <X>  <Y> ╰<Z@Z> ╭<Z@Z> ╰<X@X>
+2: ─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M1)─┤  <Z>  <X>  <Y>        ╰<Z@Z> ╭<Z@Z>
+3: ─╰AngleEmbedding(M0)─╰StronglyEntanglingLayers(M1)─┤  <Z>  <X>  <Y>               ╰<Z@Z>
+
+--- QNN-PN ---
+0: ─╭AngleEmbedding(M0)─╭StronglyEntanglingLayers(M1)─╭AngleEmbedding(M0)─╭StronglyEntanglingLayers(M2)─╭AngleEmbedding(M0)─╭StronglyEntanglingLayers(M3)─┤ ···
+1: ─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M1)─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M2)─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M3)─┤ ···
+2: ─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M1)─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M2)─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M3)─┤ ···
+3: ─╰AngleEmbedding(M0)─╰StronglyEntanglingLayers(M1)─╰AngleEmbedding(M0)─╰StronglyEntanglingLayers(M2)─╰AngleEmbedding(M0)─╰StronglyEntanglingLayers(M3)─┤ ···
+
+0: ···   <X>  <Y>  <Z>
+1: ···   <X>  <Y>  <Z>
+2: ···   <X>  <Y>  <Z>
+3: ···   <X>  <Y>  <Z>
+
+--- HQCNN-PN ---
+0: ──H─╭AngleEmbedding(M0)─╭StronglyEntanglingLayers(M1)─┤  <X>  <Y>  <Z>
+1: ──H─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M1)─┤  <X>  <Y>  <Z>
+2: ──H─├AngleEmbedding(M0)─├StronglyEntanglingLayers(M1)─┤  <X>  <Y>  <Z>
+3: ──H─╰AngleEmbedding(M0)─╰StronglyEntanglingLayers(M1)─┤  <X>  <Y>  <Z>
