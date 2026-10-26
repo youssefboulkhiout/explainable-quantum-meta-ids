@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explainable-quantum-meta-ids"
+version = "1.0.0"
+description = "Explainable quantum-enhanced meta-learning for few-shot and zero-day intrusion detection in IoT networks"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+  {name = "Youssef Boulkhiout", email = "youssef.boulkhiout@univ-setif.dz"},
+  {name = "Samir Balbal"},
+  {name = "Lakhdar Goudjil"},
+  {name = "Khaled Nasri"},
+]
+dependencies = [
+  "numpy", "pandas", "scipy", "scikit-learn", "imbalanced-learn", "lightgbm",
+  "torch", "pennylane", "shap", "lime", "matplotlib", "seaborn", "tqdm",
+]
+
+[project.scripts]
+xqmids = "xqmids.cli:main"
+
+[tool.setuptools]
+packages = ["xqmids"]

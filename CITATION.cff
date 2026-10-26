@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "explainable-quantum-meta-ids"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/youssefboulkhiout/explainable-quantum-meta-ids"
+authors:
+  - family-names: Boulkhiout
+    given-names: Youssef
+    orcid: "https://orcid.org/0000-0002-5469-3442"
+    affiliation: "Setif 1 University - Ferhat ABBAS"
+  - family-names: Balbal
+    given-names: Samir
+    orcid: "https://orcid.org/0000-0002-9980-0758"
+    affiliation: "Setif 1 University - Ferhat ABBAS"
+  - family-names: Goudjil
+    given-names: Lakhdar
+    orcid: "https://orcid.org/0009-0000-4690-6033"
+    affiliation: "Setif 1 University - Ferhat ABBAS"
+  - family-names: Nasri
+    given-names: Khaled
+    orcid: "https://orcid.org/0009-0002-0217-9625"
+    affiliation: "Setif 1 University - Ferhat ABBAS"
+preferred-citation:
+  type: article
+  title: "Explainable Quantum-Enhanced Meta-Learning for Few-Shot and Zero-Day Intrusion Detection in IoT Networks"
+  authors:
+    - family-names: Boulkhiout
+      given-names: Youssef
+    - family-names: Balbal
+      given-names: Samir
+    - family-names: Goudjil
+      given-names: Lakhdar
+    - family-names: Nasri
+      given-names: Khaled
+  year: 2026
+  notes: "Submitted."
+references:
+  - type: article
+    title: "Explainable meta-learning for few-shot and zero-day intrusion detection in IoT networks"
+    authors:
+      - family-names: Boulkhiout
+        given-names: Youssef
+      - family-names: Goudjil
+        given-names: Lakhdar
+      - family-names: Balbal
+        given-names: Samir
+      - family-names: Nasri
+        given-names: Khaled
+    journal: "Internet of Things"
+    start: "102144"
+    year: 2026

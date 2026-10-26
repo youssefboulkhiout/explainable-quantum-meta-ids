@@ -1,0 +1,14 @@
+# Python >= 3.9
+numpy
+pandas
+scipy
+scikit-learn
+imbalanced-learn
+lightgbm
+torch
+pennylane
+shap
+lime
+matplotlib
+seaborn
+tqdm

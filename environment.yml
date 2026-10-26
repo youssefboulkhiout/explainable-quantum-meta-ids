@@ -1,0 +1,21 @@
+name: xqmids
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - imbalanced-learn
+  - lightgbm
+  - matplotlib
+  - seaborn
+  - tqdm
+  - spyder
+  - pip
+  - pip:
+      - torch
+      - pennylane
+      - shap
+      - lime
